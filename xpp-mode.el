@@ -62,6 +62,9 @@
   (setq mode-name "XPP")
   (run-hooks 'xpp-mode-hook))
 
+(setq-local comment-start "#")
+(setq-local comment-end "")
+
 (provide 'xpp-mode)
 
 ;;; xpp-mode.el ends here
